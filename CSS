@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --background: #141523;
+  --secondary-color: #4a4d57;
+  --accent-color: #19d28f;
+  --text-color: #f9f9f9;
+}
+
+.container {
+  background-color: #141523;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ########## CHECKBOX STYLE ########## */
+  /* 
+   */
+/*########## TOGGEL BUTTON STYLE ##########*/
+/* .button{
+    background-color: #34384b;
+    width: 200px;
+    height: 100px;
+    border-radius: 200px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+}
+
+.button::before{
+    position: absolute;
+    content: '';
+    background-color: #d5d5d5;
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+input:checked + .button{
+    background-color: #19d28f;
+}
+
+input:checked + .button::before{
+    transform: translateX(100px);
+}
+input{
+    display: none;
+} */
+
+/*########## NEUMORPHIMS BUTTONS STYLE ########## */
+ 
+ /* .custom-button {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 200ms ease;
+  margin-bottom: 20px;
+}
+
+input:checked ~ .custom-button {
+  background-color: rgb(241, 238, 238);
+}
+input:checked ~ .custom-button svg {
+  fill: gray;
+}
+
+input{
+    display: none;
+}
+
+.test{
+    width: 200px;
+    height: 200px;
+}  */
